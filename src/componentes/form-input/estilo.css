@@ -1,0 +1,83 @@
+.inputContainer{
+    width: 80%;
+    height: 80%;
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center; 
+    background-image: radial-gradient(circle at 82.73% 58.77%, #ffd7a9 0, #ffcaaa 12.5%, #ffbca8 25%, #ffada4 37.5%, #f29d9d 50%, #d88e95 62.5%, #c1828d 75%, #ad7885 87.5%, #9c6f7f 100%);
+    border-radius: 5px;
+     margin-bottom: 40px;
+    /* width: 50%; 
+     display:block;
+     /* text-align: center ; 
+      justify-content: center;
+     align-items: center;  */
+}
+
+.inputContainer input{
+    border-radius: 30px;
+    margin: 8px 20px;
+    border: none;
+    padding-left: 10px;
+    padding: 5px;
+    outline: 0;
+      
+}
+
+.inputContainer input::placeholder{
+   
+      color: rgb(248, 228, 201);
+}
+
+
+.inputContainer label{
+   font-weight: bold;
+    text-align:start;
+    margin:0 25px;
+    color: rgb(237, 245, 245);
+}
+
+
+.formularioContainer{
+
+    width: 400px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+  
+}
+
+.btn button{
+    
+    margin-top: 30px;
+    border-radius: 5px;
+    padding: 5px 80px;
+    background-color:rgb(117, 134, 228) ;
+    border: none;
+    color: aliceblue;
+    font-size: medium;
+   
+}
+
+.inputContainer a{
+    font-size: 10px;
+    text-decoration: none;
+}
+
+.logo{
+    color: aliceblue;
+}
+
+.btn:hover{
+opacity: 0.5;
+}
+
+.btn button{
+    cursor: pointer;
+}
+
+   
